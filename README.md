@@ -70,19 +70,19 @@ Useful packages to dive deeper into:
 
 You may find helpful to have a look on some usage examples available in the notebooks folder. Good points to start are:
 
-    - [Extraction of the power grid data](https://github.com/ekatef/pypsa-africa/blob/tutorial_update/notebooks/validation/network_validation.ipynb)
+    - [Extraction of the power grid data](https://github.com/pypsa-meets-earth/documentation/tree/main/notebooks/usage_examples/network_validation.ipynb)
     The notebook is focused on retrievement of OSM power data and using them to build a network topology. The extracted data are being pre-processed to obtain a cleaned dataset to be fed into the energy model. Validation of the power grid topology is done using the World Bank data both on the country and the continent levels.
 
-    - [Validation of the Nigeria power system model](https://github.com/ekatef/pypsa-africa/blob/tutorial_update/notebooks/validation/validation_nigeria.ipynb)
+    - [Validation of the Nigeria power system model](https://github.com/pypsa-meets-earth/documentation/tree/main/notebooks/usage_examples/validation_nigeria.ipynb)
     This notebook provides a comprehensive example of the model validation for Nigeria. In particular, we look on extraction and clean-up of the power grid data, assessment of the power demand and installed generators capacities along with examination of the power generation mix.
 
-    - [Evaluation of renewable potential](https://github.com/ekatef/pypsa-africa/blob/tutorial_update/notebooks/build_renewable_profiles.ipynb)
+    - [Evaluation of renewable potential](https://github.com/pypsa-meets-earth/documentation/tree/main/notebooks/usage_examples/build_renewable_profiles.ipynb)
     Here we look on implementation and data used for calculations of the renewable potential to be used by the energy model. Spatial visualization techniques are provided for both raster and clustered plots along with plotting time series.
 
-    - [Assessment of the land availability constraints for renewable generation](https://github.com/ekatef/pypsa-africa/blob/tutorial_update/notebooks/landuse-availability.ipynb)
+    - [Assessment of the land availability constraints for renewable generation](https://github.com/pypsa-meets-earth/documentation/tree/main/notebooks/usage_examples/landuse-availability.ipynb)
     That is a demonstration an approach to account land-use restrictions by energy modeling. Spatial data on land type and protected areas are used to evaluate a share of the area where renewable generation can be constructed. After that, we look on implementation of the land-use constrains into a real energy model.
 
-    - [Looking into the optimization results](https://github.com/ekatef/pypsa-africa/blob/tutorial_update/notebooks/0_solve_network_results.ipynb)
+    - [Looking into the optimization results](https://github.com/pypsa-meets-earth/documentation/tree/main/notebooks/usage_examples/solve_network_results.ipynb)
     This notebooks introduces some techniques allowing an in-depth look into optimization results for a given country. We examine the general model structure with it's constrains and check the energy balance discrepancy. Generation and demand time-series are being visualized revealing daily and weekly dynamics. We also propose an approach to draw nice maps demonstrating spatial distribution of the generation capacities.
 
 - We recently updated some [hackathon material](https://github.com/pypsa-meets-africa/pypsa-africa-hackathon) for PyPSA-Africa. The hackathon contains jupyter notebooks with exercises which allows to master tools needed to feel confident about the model. After going through the 1 day theoretical and practical material you should have a suitable coding setup and feel confident about contributing.
