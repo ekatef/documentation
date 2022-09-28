@@ -64,7 +64,7 @@ Useful packages to dive deeper into:
 - Taco Niet from Canada
 - Pierre McWhannel from Canada
 - Mariana Rodríguez-Arce from Costa Rica
-- Hana Elattar from Egypt---
+- Hana Elattar from Egypt
 
 ## 2. Usage examples
 
